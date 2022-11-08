@@ -1,5 +1,6 @@
 // include ore-processor directives
-# include <iostream>
+#include <iostream>
+#include <iomanip>
 
 #define NUM 34568.80
 
@@ -12,6 +13,11 @@ void decisions1(void){
     //declare a variable of type float
     //initialize it using constant defined in header file
     float num = NUM;
+
+    // show decimal point and trailing zeros on the output stream object
+    cout << fixed << showpoint;
+    // show three digits to the right of the decimal in the output stream object
+    cout << setprecision(3);
 
     // use if statement
     if (num < 40000.0){
