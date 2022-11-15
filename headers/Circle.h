@@ -5,7 +5,6 @@
 #include <math.h>    // needed to perform area computation
 #include "Geometry.h"
 
-
 #define PI 3.141592653589793238
 
 // use C++ standard library namespace
